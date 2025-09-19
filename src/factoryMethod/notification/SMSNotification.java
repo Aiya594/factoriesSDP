@@ -1,6 +1,6 @@
-package notification;
+package factoryMethod.notification;
 
-public class EmailNotification implements INotification {
+public class SMSNotification implements INotification {
     @Override
     public void send() {
         System.out.println("Message: ");
@@ -11,11 +11,11 @@ public class EmailNotification implements INotification {
 
     @Override
     public void getMessage() {
-        System.out.println("Hello, my dear friend \n I sent you this message using EmailNotification class");
+        System.out.println("Hi, this is message from SMSNotification class!!!!");
     }
 
     @Override
     public void getRecipient() {
-        System.out.println("me dear friend");
+        System.out.println("bestie XD");
     }
 }

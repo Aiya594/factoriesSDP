@@ -1,6 +1,6 @@
-package factory;
+package factoryMethod.factory;
 
-import notification.INotification;
+import factoryMethod.notification.INotification;
 
 public abstract class Dialog {
 

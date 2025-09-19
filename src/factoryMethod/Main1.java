@@ -1,10 +1,12 @@
-import factory.Dialog;
-import factory.EmailDialog;
-import factory.SMSDialog;
+package factoryMethod;
+
+import factoryMethod.factory.Dialog;
+import factoryMethod.factory.EmailDialog;
+import factoryMethod.factory.SMSDialog;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main1 {
     private static Dialog dialog;
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);

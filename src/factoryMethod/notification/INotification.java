@@ -1,4 +1,4 @@
-package notification;
+package factoryMethod.notification;
 
 public interface INotification {
     void send();

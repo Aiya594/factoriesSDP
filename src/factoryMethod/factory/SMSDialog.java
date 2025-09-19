@@ -1,7 +1,7 @@
-package factory;
+package factoryMethod.factory;
 
-import notification.INotification;
-import notification.SMSNotification;
+import factoryMethod.notification.INotification;
+import factoryMethod.notification.SMSNotification;
 
 public class SMSDialog extends Dialog {
     @Override

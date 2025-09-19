@@ -1,7 +1,7 @@
-package factory;
+package factoryMethod.factory;
 
-import notification.EmailNotification;
-import notification.INotification;
+import factoryMethod.notification.EmailNotification;
+import factoryMethod.notification.INotification;
 
 public class EmailDialog extends Dialog {
     @Override
